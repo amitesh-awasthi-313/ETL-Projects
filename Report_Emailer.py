@@ -63,7 +63,7 @@ def run_glue_job(job_name):
 
     if state != "SUCCEEDED":
         raise Exception(f" Glue job '{job_name}' failed with status: {state}")
-    print(f"✅ Glue job '{job_name}' completed successfully.")
+    print(f" Glue job '{job_name}' completed successfully.")
 
 # --- STEP 5: Run Two Jobs Sequentially ---
 run_glue_job(job1)
