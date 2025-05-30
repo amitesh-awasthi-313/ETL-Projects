@@ -7,8 +7,8 @@ job1 = "pb_meta_info"
 job2 = "PB_REGISTERED_USERS_DOWNLOADS_MAILER"
 
 # --- STEP 1: IAM Credentials and Config ---
-aws_access_key_id = "AKIA5FTY6SESHEKZAB43"
-aws_secret_access_key = "8f3sztU+NbSxJfeLxOk+7k9zbxyTX85E3m5w/NYh"
+aws_access_key_id = "your_access_key@321"
+aws_secret_access_key = "your_secret_key"
 region_name = "ap-south-1"
 assume_role_arn = "arn:aws:iam::905418019108:role/Role_STS"
 session_name = "AssumeRoleManualSession"
